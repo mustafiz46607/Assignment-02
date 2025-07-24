@@ -89,6 +89,9 @@
     font-size: 4rem;
     font-weight: 700;
 }
+.banner-description{
+    font-size: 1.275rem;
+}
 /* Our plant style */
 .our-plant{
     max-width: 1220px;
@@ -100,7 +103,7 @@
     font-weight: 700;
 }
 .our-plant-description{
-    font-size: 1.4rem;
+    font-size: 1.275rem;
 }
 .card-container{
     display: grid;
@@ -152,7 +155,7 @@
     font-weight: 700;
 }
 .flower-lover-content ul li{
-    font-size: 22px;
+    font-size: 1.275rem;
     font-weight: 500;
 }
 .badge{
@@ -164,7 +167,17 @@
 }
 .badge img{
     width: 100%;
+    animation: spin infinite 3s linear;
 }
+/* animation style */
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
 /* latest deal styles */
 .latest-deal{
     max-width: 1220px;
@@ -172,13 +185,13 @@
 }
 .latest-deal-title{
     text-align: center;
-    font-size: 3.2rem;
+    font-size: 3.1rem;
 }
 .latest-deal-description{
     max-width: 80%;
     text-align: center;
     margin: 0 auto;
-    font-size: 1.4rem;
+    font-size: 1.275rem;
 }
 .latest-deal-container{
     max-width: 1220px;
@@ -258,7 +271,7 @@
     margin: 0px auto;
 }
 .join-title{
-    font-size: 3.2rem;
+    font-size: 3.1rem;
     font-weight: 700;
     color: white;
     text-align: center;
@@ -285,7 +298,7 @@
     column-gap: 1.5rem;
 }
 .footer-description{
-    font-size: 1.4rem;
+    font-size: 1.275rem;
 }
 .list-item-1 li,
 .list-item-2 li{
@@ -312,9 +325,7 @@
     .banner-left{
         width: 100%;
     }
-    .banner-title{
-        font-size: 2rem;
-    }
+    
     .our-plant{
         width: 100%;
     }
