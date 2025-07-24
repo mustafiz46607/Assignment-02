@@ -145,6 +145,7 @@
 .flower-lover-content{
     max-width: 540px;
     padding: 44px;
+    position: relative;
 }
 .flower-lover-title{
     font-size: 3.1rem;
@@ -153,6 +154,16 @@
 .flower-lover-content ul li{
     font-size: 22px;
     font-weight: 500;
+}
+.badge{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: -180px;
+    left: -200px;
+}
+.badge img{
+    width: 100%;
 }
 /* latest deal styles */
 .latest-deal{
@@ -316,6 +327,9 @@
     .flower-lover .img{
         width: 90%;
     }
+    .badge{
+        display: none;
+    }
     .latest-deal-container{
         grid-template-areas: 
         "deal-1     deal-1      deal-1      deal-1"
@@ -325,7 +339,7 @@
     }
     .deal-3, .deal-2, .deal-1{
         height: 220px;
-        width: 100%;
+        width: 98%;
     }
     #deal-3{
         padding: 50px 45px;
