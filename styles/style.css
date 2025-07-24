@@ -104,6 +104,7 @@
 }
 .our-plant-description{
     font-size: 1.275rem;
+    padding: 0px 120px;
 }
 .card-container{
     display: grid;
@@ -328,6 +329,9 @@
     
     .our-plant{
         width: 100%;
+    }
+    .our-plant-description{
+        padding: 0px 35px;
     }
     .card-container{
         grid-template-columns: repeat(2,1fr);
